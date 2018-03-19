@@ -15,13 +15,13 @@ $(document).ready(function() {
     })
   }
 
-function reduceWidth() {
-  TweenLite.to(redCircle, 2, {width: 100})
-  TweenLite.to(redCircle2, 2, {width:100,
-    onComplete: movetoRightDown
-  })
-}
+  function reduceWidth() {
+    TweenLite.to(redCircle, 2, {width: 100})
+    TweenLite.to(redCircle2, 2, {width:100,
+      onComplete: movetoRightDown
+    })
+  }
 
-reduceWidth()
+  reduceWidth()
 
 });
